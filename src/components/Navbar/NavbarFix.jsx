@@ -58,7 +58,7 @@ const NavbarFix = () => {
     <nav className="navbar">
       <img src={LogoTekmira} />
       <div className="nav-items">
-        <Link to="/home">Home</Link>
+        <Link to="/">Home</Link>
         <div
           className="tentang-menu"
           onMouseEnter={showDropdownTentang}
