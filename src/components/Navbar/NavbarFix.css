@@ -1,0 +1,164 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  color: black;
+  font-family: "Inter";
+}
+
+.navbar {
+  width: 100%;
+  height: 91px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  position: sticky;
+  z-index: 10;
+  top: 0%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar img {
+  width: 219.5px;
+  height: 46.7px;
+}
+
+.nav-items {
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+  font-weight: bold;
+}
+
+.tentang-menu {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.tentang-dropdown {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  position: absolute;
+  width: 233px;
+  text-align: center;
+  background-color: white;
+  height: 179px;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-weight: lighter;
+  top: 60%;
+  font-size: 16px;
+}
+
+.layanan-menu {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.layanan-dropdown {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  position: absolute;
+  width: 244px;
+  text-align: center;
+  background-color: white;
+  height: 308px;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-weight: lighter;
+  top: 60%;
+  font-size: 16px;
+}
+
+.publikasi-menu {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.publikasi-dropdown {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  position: absolute;
+  width: 233px;
+  height: 94px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-weight: lighter;
+  top: 60%;
+  font-size: 16px;
+}
+
+.reformasi-menu {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.reformasi-dropdown {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  position: absolute;
+  width: 280px;
+  height: 264px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-weight: lighter;
+  top: 60%;
+  font-size: 16px;
+}
+
+.tamasya-menu {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.tamasya-dropdown {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  position: absolute;
+  width: 280px;
+  height: 65px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-weight: lighter;
+  top: 60%;
+  font-size: 16px;
+}
+
+.jurnal-menu {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.jurnal-dropdown {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  position: absolute;
+  width: 280px;
+  height: 107px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-weight: lighter;
+  top: 60%;
+  font-size: 16px;
+}

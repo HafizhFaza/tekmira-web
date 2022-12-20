@@ -1,0 +1,103 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.tugas-container {
+  background-color: #e8f4ff;
+  width: 100%;
+}
+
+.tugas-card-container {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 50px auto;
+}
+
+.tugas-card {
+  width: 543px;
+  height: 735px;
+  background: #ffffff;
+  border-radius: 9px;
+}
+
+.card-image img {
+  max-width: 543px;
+  max-height: 221px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+
+.card-icon {
+  width: 100%;
+  height: 153px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -50%;
+  z-index: 1;
+  margin-top: -80px;
+}
+
+.card-content {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space;
+}
+
+.card-content h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  letter-spacing: 0.165em;
+
+  color: #000000;
+}
+
+.visi-desc {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #000000;
+  padding: 80px;
+}
+
+.card-content p {
+  width: 90%;
+  font-family: "Inter";
+  text-align: center;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 29px;
+  gap: 1px;
+  margin-top: 10px;
+
+  color: #000000;
+}
+
+.tugas-desc {
+  font-family: "Inter";
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #000000;
+  padding: 60px 0px;
+}

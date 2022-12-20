@@ -1,0 +1,26 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.lokasi-container {
+  background-color: #e8f4ff;
+  width: 100%;
+}
+
+.lokasi-kontak {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.kontak {
+  width: 100%;
+  height: 541px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 200px;
+}

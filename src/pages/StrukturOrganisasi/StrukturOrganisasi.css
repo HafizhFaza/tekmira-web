@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.struktur-container {
+  background-color: #e8f4ff;
+  width: 100%;
+}
+
+.struktur-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1px 114px;
+  width: 1256px;
+  height: 81px;
+  background: #0a384e;
+  margin: 50px auto;
+}
+
+.struktur-title h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 58px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.struktur-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,16 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.maklumat-container {
+  background-color: #e8f4ff;
+  width: 100%;
+}
+
+.maklumat-pic {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

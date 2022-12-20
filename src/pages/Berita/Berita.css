@@ -1,0 +1,14 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.berita-container {
+  background-color: #e8f4ff;
+  width: 100%;
+}
+
+.berita-content {
+  display: 100%;
+  padding-top: 40px;
+}

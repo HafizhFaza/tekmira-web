@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.detail-berita-container {
+  background-color: #e8f4ff;
+  width: 100%;
+}
+
+.news {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.news-sosmed-and-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.news-content {
+  padding: 40px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.news-content p {
+  width: 60%;
+}
