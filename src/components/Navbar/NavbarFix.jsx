@@ -58,6 +58,7 @@ const NavbarFix = () => {
     <nav className="navbar">
       <img src={LogoTekmira} />
       <div className="nav-items">
+        <a href="https://www.itenas.ac.id/">ITENAS</a>
         <Link to="/">Home</Link>
         <div
           className="tentang-menu"
